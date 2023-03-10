@@ -1,7 +1,8 @@
-import Header from "../layouts/Header";
-import Banner from "../components/Banner";
-import banner from "../components/banner.module.scss";
-import bana from "../assets/bana.png";
+import Header from '../layouts/Header';
+import Banner from '../components/Banner';
+import banner from '../components/banner.module.scss';
+import bana from '../assets/bana.png';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -12,10 +13,10 @@ const HomePage = () => {
           <h2>Medical and Health</h2>
           <h1>A Great Place to recieve care</h1>
           <p>We are always focused on treating you perfectly</p>
-          <a href="#">Join us</a>
+          <Link to="#">Join us</Link>
         </div>
         <div>
-          <img src={bana} alt="image" width={400} />
+          <img src={bana} alt="banner" width={400} />
         </div>
       </Banner>
     </section>
