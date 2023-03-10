@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <HomePage />
-    <h1>hello</h1>
     </div>
   );
 }
