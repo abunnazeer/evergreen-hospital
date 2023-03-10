@@ -1,0 +1,55 @@
+@import "../sass/variable";
+.container {
+  background-color: $white-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  border-bottom: 0.1rem solid $grey-color;
+  font-family: "poppinfs";
+  font-weight: 500;
+  font-size: 2rem;
+  .logo {
+    background-color: $primary-color;
+    padding: 0.8rem 2.5rem;
+    color: $white-color;
+  }
+
+  ul {
+    li {
+      text-align: center;
+      color: $black-color;
+      display: inline;
+      margin: 4rem;
+      color: $black-color;
+      &:hover {
+        color: $red-color !important;
+      }
+    }
+  }
+  .menu {
+    cursor: pointer;
+    color: $black-color;
+    &:hover {
+      color: $red-color !important;
+    }
+  }
+  .s__menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .join__us {
+      background-color: $primary-color;
+      padding: 0.8rem 2rem;
+      color: $white-color;
+    }
+  }
+  .j__icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .icon__size {
+      font-size: 3rem;
+    }
+  }
+}

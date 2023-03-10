@@ -1,0 +1,32 @@
+@import "../sass/variable";
+.container {
+  //   background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //   height: 30rem;
+  font-family: "poppinfs";
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 5rem 10rem;
+
+  h1 {
+    font-size: 5rem;
+    color: $primary-color;
+    width: 70%;
+  }
+  h2 {
+    color: $blue-color;
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 2rem;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  a {
+    background-color: $primary-color;
+    padding: 0.8rem 2rem;
+    color: $white-color;
+  }
+}
