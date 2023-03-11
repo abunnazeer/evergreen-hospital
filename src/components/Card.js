@@ -9,6 +9,7 @@ const Card = props => {
         padding: props.p,
         boxShadow: props.bs,
         margin: props.m,
+        width: props.width,
       }}
     >
       {props.children}
