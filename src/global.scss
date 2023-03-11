@@ -26,16 +26,33 @@ body {
 .wt_100 {
   width: 100% !important;
 }
-
+.wt_50 {
+  width: 50% !important;
+}
 .white {
   color: #fff !important;
 }
+
+.pr_color {
+  color: #840000 !important;
+}
 .icon__bg {
   background-color: #c9ddf1 !important;
-
+  border-radius: 1rem;
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   display: block;
-  width: 28%;
+  width: 30%;
+  text-align: center;
+}
+
+.icon__bg_w {
+  background-color: #ffffff !important;
+  border-radius: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  width: 30%;
   text-align: center;
 }
 
@@ -57,4 +74,25 @@ body {
 
 .mt_3 {
   margin-top: 3rem !important;
+}
+
+.mt_3_5 {
+  margin-top: 3.5rem !important;
+}
+
+.mt_4 {
+  margin-top: 4rem !important;
+}
+
+// aliegn
+
+.center {
+  text-align: center !important;
+}
+
+.left {
+  text-align: left !important;
+}
+.right {
+  text-align: right !important;
 }
