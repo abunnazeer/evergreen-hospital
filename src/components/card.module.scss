@@ -1,5 +1,25 @@
-@import "../sass/variable";
+@import '../sass/variable';
 
 .container {
-  background-color: $primary-color;
+  background-color: $grey-color-100;
+  padding: 5rem 10rem;
+  font-family: 'poppins';
+  // font-weight: 400;
+  font-size: 2rem;
+  h1 {
+    font-size: 3rem;
+    color: $black-color;
+    width: 70%;
+    font-weight: 200;
+  }
+  h2 {
+    color: $blue-color;
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.5rem;
+    color: $black-color-200;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
 }
