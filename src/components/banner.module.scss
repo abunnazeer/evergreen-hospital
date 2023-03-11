@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: space-between;
   //   height: 30rem;
-  font-family: 'poppinfs';
-  font-weight: 500;
+  font-family: 'poppins';
+  font-weight: 400;
   font-size: 2rem;
   padding: 5rem 10rem;
 
@@ -27,8 +27,6 @@
   a {
     background-color: $primary-color;
     padding: 0.8rem 2rem;
-    color: $white-color;
-    //to be remove letter
-    padding: auto;
+    color: $white-color !important;
   }
 }

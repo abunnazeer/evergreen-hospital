@@ -1,7 +1,19 @@
-import styles from "./card.module.scss";
+import styles from './card.module.scss';
 
-const Card = () => {
-  return <section className={styles.container}>Hello card</section>;
+const Card = props => {
+  return (
+    <section
+      className={styles.container}
+      style={{
+        backgroundColor: props.bg,
+        padding: props.p,
+        boxShadow: props.bs,
+        margin: props.m,
+      }}
+    >
+      {props.children}
+    </section>
+  );
 };
 
 export default Card;
